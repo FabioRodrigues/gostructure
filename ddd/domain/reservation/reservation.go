@@ -11,7 +11,8 @@ type Service struct {
 
 //Reserve ...
 func (s Service) Reserve(bookID string) error {
-	book := database.GetByID(bookID)
 	
+	book := database.GetByID(bookID)
+
 	return nil
 }

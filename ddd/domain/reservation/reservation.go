@@ -1,18 +1,19 @@
 package reservation
 
 import (
+	"github.com/fabiorodrigues/gostructure/ddd/domain"
 	"github.com/fabiorodrigues/gostructure/ddd/infra"
 )
 
 //Service ...
 type Service struct {
-	bookRepo    infra.BookRepository
+	bookRepo    domain.BookRepository
 	emailSender infra.EmailSender
 }
 
 //NewService ...
 func NewService(
-	bookRepo infra.BookRepository,
+	bookRepo domain.BookRepository,
 	emailSender infra.EmailSender) Service {
 	return Service{
 		bookRepo:    bookRepo,

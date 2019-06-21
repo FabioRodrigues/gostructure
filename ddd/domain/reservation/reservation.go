@@ -6,13 +6,17 @@ import (
 
 //Service ...
 type Service struct {
-	bookRepo infra.BookRepository
+	bookRepo    infra.BookRepository
+	emailSender infra.EmailSender
 }
 
 //NewService ...
-func NewService(bookRepo infra.BookRepository) Service {
+func NewService(
+	bookRepo infra.BookRepository,
+	emailSender infra.EmailSender) Service {
 	return Service{
-		bookRepo: bookRepo,
+		bookRepo:    bookRepo,
+		emailSender: emailSender,
 	}
 }
 
@@ -32,5 +36,11 @@ func (s Service) Reserve(bookID string) error {
 		return err
 	}
 
-	return nil
+	return s.emailSender.Send(infra.EmailOptions{
+		From:   "from@email.com",
+		To:     []string{"to@email.com"},
+		Body:   "Book is reserved. Please return it in 5 days",
+		IsHTML: false,
+	})
+
 }

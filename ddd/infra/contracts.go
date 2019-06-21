@@ -15,3 +15,16 @@ type BookRepository interface {
 	GetByID(ID string) (entities.Book, error)
 	SaveOrUpdate(book entities.Book) error
 }
+
+//EmailSender ...
+type EmailSender interface {
+	Send(opts EmailOptions) error
+}
+
+//EmailOptions ...
+type EmailOptions struct {
+	From   string
+	To     []string
+	Body   string
+	IsHTML bool
+}

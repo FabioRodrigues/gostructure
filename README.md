@@ -24,6 +24,7 @@ Given I want to reserve a book in a book store
 When I reserve the book
 And there is just one available book
 Then the book has to be unavailable
+And an email must be send to inform that the user has five days to return it
 ```
 
 ## Contributing

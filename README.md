@@ -6,10 +6,11 @@ This repository proposes to be an scaffolding repo to get some architectural pat
 
 To exemplify these patterns, I'll solve a single `BDD` scenario aplying each of below patterns:
 
-- DDD (developing)
+- DDD
+- MVC (developing)
 
 ### Future:
-- MVC
+
 - Clean architecture
 - Transaction script
 

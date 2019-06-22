@@ -23,6 +23,9 @@ func main() {
 }
 
 func start(config config) {
+	//here is where everything starts
+	//you can supply every dependencies you want
+
 	dbDriver := mongo.NewClient()
 	bookRepo := repositories.NewBook(dbDriver)
 

@@ -1,3 +1,14 @@
+github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
+github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/ditointernet/go-assert v0.0.0-20190308171610-c7953af9e469 h1:lUzPrPUqRXinbUiFOfRKaMP6nsWb2riyQcpI0nAI9xw=
+github.com/ditointernet/go-assert v0.0.0-20190308171610-c7953af9e469/go.mod h1:5C3SWkut69TSdkerzRDxXMRM5x73PGWNcRLe/xKjXhs=
 github.com/fabiorodrigues/gostructure v0.0.0-20190616155806-660fbadc3343 h1:VfgOu/f46ZutmQtaDL+I8+O4waeGAKCL6exPsiXStN8=
 github.com/fabiorodrigues/gostructure v0.0.0-20190616162901-f80bd49662ce h1:qMEZPtdGFWb36qCIiGbRQlP6/E6qjJ6K3pHME9n/Y24=
 github.com/fabiorodrigues/gostructure v0.0.0-20190616162954-c40c83341fe6 h1:qEpvYiUUaEhRV3e7Z8nu+dvDI7LT/KPfRWP5T03FeGY=
+github.com/fabiorodrigues/gostructure v0.0.0-20190621194038-cba88d5ab42b h1:aRS/L2l++O67pyBYclVBeJ3rD3B3BRxcC3ySzVfuNBQ=
+github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
+github.com/stretchr/testify v1.3.0 h1:TivCn/peBQ7UY8ooIcPgZFpTNSz0Q2U6UrFlUfqbe0Q=
+github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=

@@ -11,6 +11,14 @@ type Book struct {
 	AvailableQuantity int
 }
 
+//NewBook ...
+func NewBook(title string, availableQuantity int) Book {
+	return Book{
+		Title:             title,
+		AvailableQuantity: availableQuantity,
+	}
+}
+
 //Reserve ...
 func (b *Book) Reserve() error {
 	if b.AvailableQuantity == 0 {
